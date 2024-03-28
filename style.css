@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.coluna-roxa {
+    position: fixed;
+    width: 10vh;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+/* TITULO TOPLINGO */
+.titulo {
+    color: blueviolet;
+    margin-top: 5%;
+    margin-left: 95vh;
+    font-weight: bold;
+    font-size: 70px;
+    
+}
+
+/* IMAGEM DA LUA */
+.escuro {
+    margin-top: 6%;
+    margin-right: 40%;    
+    margin-left: 60vh;
+}
+
+main {
+    width: 100vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin-left: 70vh;
+    justify-content: center;
+} 
+
+/* CAIXA 1 - DIGITAR  O TEXTO */
+textarea {
+    background: none;
+    width: 60vw;
+    height: auto;
+    outline: none;
+    margin-top: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+  }
+
+/* BOTÕES PARA SELEÇÃO DE IDIOMAS */
+  .selectFrom {
+    width: 90px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: blueviolet;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  .selectTo {
+    width: 90px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: blueviolet;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  /* BOTÃO TRAZUDIR */
+  button {
+    background-color: rgb(43, 0, 83);
+    color: aliceblue;
+    cursor: pointer;
+    height: 30px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
+
+  /* NOMES */
+footer {
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+  }
+
+  .flagIcon {
+    width: 30px; 
+    height: auto; 
+    margin-left: 10px; 
+    vertical-align: middle; 
+}
+
+  /*MODO DARK*/
+
+.modo-escuro {
+  background-color: black;
+  color: white;
+}
+
+/* Textono modo escuro */
+.modo-escuro textarea,
+.modo-escuro option {
+  color: white;
+}
+
+/* Caixa de tradução no modo escuro */
+.modo-escuro .traducao textarea {
+  background-color: rgb(43, 0, 83);
+}
+
+/*Caixa do tradutor no modo escuro*/
+.modo-escuro .tradutor textarea{
+  background-color: rgb(43, 0, 83);
+}

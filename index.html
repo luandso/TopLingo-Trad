@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./JS/translate.js" defer></script>
+    <script src="./JS/visual.js" defer></script>
+    <script src="./JS/dark.js" defer></script>
+    <title>TopLingo</title>
+</head>
+<body>
+
+    <!-- BARRA LATERAL -->
+    <div class="coluna-roxa"></div>
+
+    <header>
+
+        <div class="espacoTela"></div>
+
+        <!-- TITULO -->
+        <div class="titulo">TopLingo</div>
+            
+        <div class="escuro">
+            <img id="modoEscuro" src="./img/lua 1.png" alt="modo-escuro">
+        </div> 
+
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="tradutor">
+                <textarea id="textareaFrom" placeholder="Digitar texto"></textarea>
+                <div class="languageSelection">
+                    <select class="selectFrom"></select>
+                    <img id="flagFrom" src="" alt="Bandeira" class="flagIcon">
+                </div>
+            </div>
+
+            <div class="traducao">
+                <textarea id="textareaTo" placeholder="Texto traduzido"></textarea>
+                <div class="languageSelection">
+                    <select class="selectTo"></select>
+                    <img id="flagTo" src="" alt="Bandeira" class="flagIcon">
+                </div>
+            </div>
+
+            <button id="btnTranslate">TRADUZIR</button>
+
+        </div>
+    </main>
+
+    <footer>NycolleL e Luan DSO | 2024</footer>
+
+</body>
+</html>
