@@ -127,3 +127,14 @@ footer {
 .modo-escuro .tradutor textarea{
   background-color: rgb(43, 0, 83);
 }
+
+.mic{
+  width: 2%;
+  height: 2%;
+
+}
+
+.fa-microphone{
+  font-size: 22px;
+  margin-right: 30px;
+}
